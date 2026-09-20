@@ -39,3 +39,20 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Local Supabase CLI files
+supabase/.temp/
+
+# Local development output
+dev-output.txt
+
+# One-off fix scripts (use migrations instead)
+fix-*.js
+fix-*.sql
+
+# Diagnostic scripts
+*diagnostic*.sql
+
+# SQL setup files in supabase root (use migrations/ instead)
+supabase/*_SETUP.sql
+supabase/*_setup.sql
